@@ -1,0 +1,221 @@
+@media only screen and (max-width: 1200px){
+    .mobile-nav{
+        visibility: hidden;
+    }
+  blockquote{
+      margin-left: 30px;;
+  }
+
+  .information{
+      margin-left: 10px;
+      font-size: 90%;
+  }
+  .social-icons{
+      margin-left:20px ;
+  }
+  form{
+    margin-left: 20%;
+  }
+  .main-nav{
+    position: absolute;
+    right: -70px;
+    top: -7px;
+  }
+}
+
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 200px;
+        margin-top: -20px;
+    }
+    .mobile-nav{
+        visibility: hidden;
+    }
+    .main-nav{
+        position: absolute;
+        right: -70px;
+        top: -7px;
+      }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-20%,-50%);
+    }
+    .product-section .btn{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .product-section h3{
+        font-size: 90%;
+    }
+    .product-section h4{
+        font-size: 170%;
+    }
+    .information{
+        margin-left:10%;
+    }
+
+    .social-icons li {
+        margin-left: 10%;
+        padding: 1px;
+        font-size: 150%;
+    }
+    form{
+        margin-left: 10%;
+        width: 440px;
+    }
+    .information i{
+        display: block;
+    }
+
+    .information li{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+     .mobile-nav{
+        visibility: visible;
+        font-size: 150%;
+        position: absolute;
+        top: 0px;
+        right: 30px;
+    }
+
+    .sticky{
+        height: 130px;
+    }
+
+    .col{
+        width:100%
+    }
+    .main-nav{
+        display: none;
+        margin-top: 90px;
+    }
+    .main-nav li{
+        line-height: 30px;
+        font-size: 80%;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+
+    h1{
+        word-spacing:2px;
+        font-size: 180%;
+    }
+    .btn{
+        width: 180px;
+    }
+    .heading-main-box{
+        transform: translate(-15%,-60%);
+    }
+    .about-picture{
+        text-align: center;
+    }
+    .about-picture img{
+        width: 80%; 
+    }
+    
+    .about-picture .picture-title{
+        font-size: 30px;
+    }
+
+    .product-section .product-box{
+        width: 80%;
+    }
+
+    blockquote{
+        margin-bottom: 30px;
+    }
+
+    form{
+        width: 70%;
+        margin-left: 15%;
+    }
+    form label{
+        font-size: 20px;
+    }
+    form input[type = "text"], input[type = "email"], textarea{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+     .logo{
+        width: 200px;
+        margin-top: -30px;
+    }
+   .mobile-nav{
+        font-size: 100%;
+        position: absolute;
+        top: -5px;
+        right: 30px;
+    }
+    .heading-text{
+        word-spacing:2px;
+        font-size: 100%;
+        transform: translate(5%);
+    }
+    .heading-main-box a{
+        display: block;
+        margin-top: 20px;
+        transform: translate(40%);
+    }
+    h2{
+        font-size: 100%;
+    }
+
+    blockquote{
+        font-size: 90%;
+    }
+    blockquote:before { 
+        font-size: 150%;
+        left: -20px;
+    }
+    
+    figcaption{
+        visibility: hidden;
+    }
+    .logo-sponsor{
+        width: 70px;
+    }
+
+    .information li{
+        font-size: 70%;
+    }
+
+    .social-icons i{
+        width: 15px;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    form label{
+        font-size: 15px;
+    }
+    form input[type = "text"], input[type = "email"], textarea{
+        font-size: 15px;
+        margin-left: 15px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    textarea{
+        height: 50px;
+    }
+    input[type="submit"]{
+        font-size: 15px;
+        text-align: center;
+    }
+    footer{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
